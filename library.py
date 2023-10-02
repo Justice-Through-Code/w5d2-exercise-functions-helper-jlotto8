@@ -16,18 +16,18 @@ def available_books():
 
 # print('-----------------------')
 
-def check_out(title = str):
+def check_out(title):
 # 1.3 TODO: Create a function named 'check_out' that removes a book from the books list
 # Parameters: book_title (string)
 # Return: Not needed for this function
     if title == True:
-        books.remove(title)
+        books.remove()
 
 # 1.4 TODO: Check out 'THE POWER OF MOMENTS' using the check_out function
 
 
 # 1.5 TODO: Run the 'available_books' function again to see if the book was checked out
-# check_out(title='THE POWER OF MOMENTS')
+check_out('THE POWER OF MOMENTS')
 # available_books()
 # print('-----------------------')
 def check_in(title = str):
